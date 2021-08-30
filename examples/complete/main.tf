@@ -1,3 +1,7 @@
+provider "aws" {
+  region  = "eu-west-1"
+ # version = "~> 2.19.0"
+}
 resource "random_pet" "this" {
   length = 2
 }
